@@ -33,4 +33,12 @@ terraform init
 - `ami_id`: "ami-007855ac798b5175e"
 
 
+## Troubleshooting
+
+- If you encounter an "Access Denied" error during the deployment, make sure your AWS credentials have the necessary permissions to create the specified resources.
+
+## FAQs
+
+- Q: Can I use a different AWS region?
+  A: Yes, you can modify the `region` 
 
