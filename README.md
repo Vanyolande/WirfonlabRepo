@@ -11,7 +11,6 @@ This project demonstrates the use of Terraform to provision and manage infrastru
 
 1. Clone the repository: https://github.com/Vanyolande/WirfonlabRepo.git
 
-
 2. Set up the environment:
 
 - Open your command prompt or terminal.
