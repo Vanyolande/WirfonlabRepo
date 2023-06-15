@@ -18,8 +18,7 @@ This project demonstrates the use of Terraform to provision and manage infrastru
 
 - Navigate to the WirfonlabRepo directory using the cd command. 
 
-
-## Run the is command
+## Run this command
 
 terraform init
 
