@@ -122,7 +122,6 @@ resource "aws_security_group" "allow_web" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-
   ingress {
     description = "SSH"
     from_port   = 22
