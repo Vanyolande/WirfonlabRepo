@@ -61,7 +61,6 @@ resource "aws_route_table" "prod-route-table" {
     gateway_id = aws_internet_gateway.gw.id
   }
 
-  # resource "aws_route
   tags = {
     Name = "prod"
   }
@@ -106,7 +105,7 @@ resource "aws_security_group" "allow_web" {
   vpc_id      = aws_vpc.prod.id
 
   ingress {
-    description = "https"
+    description = "HTTPS"
     from_port   = 443
     to_port     = 443
     protocol    = "tcp"
@@ -115,7 +114,7 @@ resource "aws_security_group" "allow_web" {
 
 
   ingress {
-    description = "http"
+    description = "HTTP"
     from_port   = 80
     to_port     = 80
     protocol    = "tcp"
